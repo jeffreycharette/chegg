@@ -1,0 +1,14 @@
+Save hundreds by checking out with Chegg.
+
+Hi $cond(empty(firstname(lookup(ship_fname))), there, leadingcapital(firstname(lookup(ship_fname))))$,
+
+Get top dollar for 
+used textbooks.
+
+No lines. Free shipping.
+
+Get a quote.
+
+Facebook: http://www.facebook.com/chegg
+Twitter: http://twitter.com/chegg
+Blog: http://blog.chegg.com/

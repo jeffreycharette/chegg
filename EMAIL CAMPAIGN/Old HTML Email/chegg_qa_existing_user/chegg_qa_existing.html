@@ -1,0 +1,489 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>QA: Solutions You Can Count On</title>
+</head>
+
+<body style="font-size:12px;">
+
+
+<style type="text/css">
+	@media only screen and (max-device-width: 480px) { 
+    /* mobile-specific CSS styles go here */
+        table[class=contentborder] { 
+            width:300px !important;
+        }
+		
+		table[class=contentborder2] { 
+            width:320px !important;
+			padding-left: 10px;
+			
+        }
+		
+		td[id=shift] { 
+			padding-left: 15px !important;
+
+        }
+		
+		
+		.topper a {
+			font-size:10px !important;
+		}
+		
+		a[class=hide-on-mobile], 
+		img[class=hide-on-mobile],
+		table[class=hide-on-mobile],
+		td [class=hide-on-mobile]{
+			display:none !important;
+		}
+		
+		a[class=appear-on-mobile], 
+		img[class=appear-on-mobile],
+		table[class=appear-on-mobile],
+		td[class=appear-on-mobile]
+		{
+			 display: block !important;
+ width:270px !important; 
+ overflow:visible !important;
+ float:none !important;
+		}
+		
+		a[class=hide-on-desktop], img[class=hide-on-desktop]{
+			display:block !important;
+			position:relative;
+			top:auto;
+			left:auto;
+			width:auto;
+			height:auto;
+			overflow:visible;
+		}
+		
+	
+	
+		.center-on-mobile{
+			text-align:center !important;
+		}
+		
+		  img[id="cheggbar"] {
+	     display: none!important;
+	     }
+		 
+		
+		 
+		body {-webkit-text-size-adjust:none;}
+		
+		   a[id="textbooks"] {
+	     display: none !important;
+	     }
+		 
+		 table[class=innertable], td[class=innertable]{
+			width:278px !important;
+			padding-left: 0px !important;
+		}
+		
+		 table[class=table1], td[class=table1]{
+			width:278px !important;
+			padding-left: 0px !important;
+		}
+		
+		
+		 table[class=innertable2]{
+			width:293px !important;
+		}
+		
+		 table[class=innertable3]{
+			width:150px !important;
+		}
+		
+		 table[class=innertable4]{
+			width:110px !important;
+		}
+		  img[id="bigfinal"] {
+	     display: none!important;
+	     }
+		
+		  img[class=hider], td[class=hider],a[class=hider] {
+	     display: none!important;
+	     }
+		 table[class=outerwhite]{
+			width:300px !important;
+		}
+		 table[class=contenttable]{
+			width:300px !important;
+		}
+		 td[class=addpad]{
+			padding-left: 10px !important;
+		}
+		
+		 a[class=textsize]{
+			font-size:11px !important;
+			-webkit-text-size-adjust: none!important; 
+			text-align: center;
+		}
+		 td[class=subtractpad]{
+			padding-left: 0px !important;
+		}
+		 td[class=subtractpad2]{
+			padding-bottom: 0px !important;
+		}
+		 td[id=poppoll]{
+			padding-top: 20px !important;
+		}
+		 td[id=spacetd]{
+			padding-top: 20px !important;
+		}
+		 td[id=graphicstd]{
+			padding-left: 10px !important;
+		}
+		 td[id=widthadjust]{
+			width: 200px !important;
+		}
+		  img[id="welcomeheader"] {
+	      width: 300px !important;
+		 height: 64px !important;
+	     }
+		  img[id="horizbar"] {
+	      width: 300px !important;
+	     }
+		 img[class="divide"] {
+	      width: 277px !important;
+	     }
+		
+		  table[class=bubble]{
+			display: none !important;
+		}
+		br [class=nodisplay]{
+		display: none !important;
+		}
+		br[class=hidethis]{
+		display: none !important;
+		line-height: 0px;
+		}
+		td[class=mobilepad]{
+		padding-bottom: 20px;
+		}
+		td[class=mobilepad2]{
+		padding-top: 4px;
+		}
+		td[class=askquestion]{
+		padding-left: 25px!important;
+		padding-bottom:20px!important;
+		}
+		td[class=articlemobile]{
+		padding-top: 6px!important;
+		}
+		
+		td[class=articlemobile2]{
+		padding-top: 6px!important;
+		padding-bottom: 20px! important;
+		}
+		 td[class=social]{
+		padding-top: 10px;
+		}
+    }
+
+    /* regular CSS styles go here */
+	body, html{
+		padding:0;
+		margin:0;
+		color:#333;
+		font-size:12px;
+		width:100% !important; 
+		-webkit-text-size-adjust:100%; 
+		-ms-text-size-adjust:100%; 
+		margin:0; 
+		padding:0;
+vertical-align:top;
+	}
+
+.imagetocache{display:none !important;}
+	
+	.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+	.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} 
+	
+	img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+	
+	a img {border:none;}
+	.image_fix {display:block;}
+	p {margin: 1em 0;}
+	
+	div.im{
+		color:#333 !important;
+	}
+		
+	table{
+		margin:0;
+		padding:0;
+		color:#333;
+		border:none;
+		border-collapse:collapse; 
+		mso-table-lspace:0pt; 
+		mso-table-rspace:0pt;
+	}
+	
+    table.contentborder {
+        width: 600px;
+		background:#ededed;
+    }
+	
+	table.contenttable{
+		background:#fff;
+		width:100%
+	}
+	
+	table.topper, .topper tr{
+		background:#ededed !important;
+	}
+	
+	td{
+		font-family: Helvetica,Arial,  sans-serif;
+		color:#333 ;
+	}
+	
+	.cta{
+		background:#a4bf1c;
+	}
+	
+	a{
+		color:#333;
+		text-decoration:none;
+	}
+	
+	a:hover{
+		text-decoration:underline;
+	}
+	
+	.topper a {
+			font-size:11px;
+			color:#666;
+	}
+		
+	.hide-on-desktop{
+			display:none !important;
+			position:absolute;
+			top:-10000px;
+			left:-10000px;
+			width:0;
+			height:0;
+			overflow:hidden;
+	}
+	
+	.no-line-height{
+		line-height:0;
+	}
+	
+	img{
+		border:none;
+	}
+	
+	h2{
+		font-size:16px;
+		font-weight:bold;
+		margin:0 0 10px 0;
+		line-height:130% !important;
+color:#000000;
+	}
+	
+	h3{
+		font-size:14px;
+		font-weight:bold;
+		margin:10px 0 10px 0;
+		line-height:130% !important;
+color:#000000;
+	}
+	
+	.disclaimer{
+		margin-top:10px;
+		color:#aaa;
+		font-size:9px;
+		line-height:100% !important;
+	}
+	
+	.general-image-copy td{
+			padding:0 20px;
+		}
+	
+	.book-image{
+		width:85px;
+		height:100px;
+		padding-bottom:15px;
+	}
+	
+	.book-image td{
+	}
+	
+
+	
+</style>
+<!--[if gte mso 9]>
+<style>
+#savetable {width: 490px !important;}
+#savetext{width: 490px !important;}
+</style>
+<![endif]-->
+<!-- Main Wrapper -->
+<table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#ededed" style="background:#ededed;">
+	<tr><td align="center"  valign="top" >
+<!-- Content Border -->
+		<table cellpadding="5" border="0" cellspacing="0" class="contentborder2" style="background:#ededed; width:610px;">
+
+								<tr><td style="padding:5px" id="shift">
+
+						<!-- Snippet -->
+<table style="background:#ededed;" class="hide-on-mobile" width="600"><tr><td width="600" style="width:600px; color:#666; font-size:12px; font-family:Arial, Helvetica, sans-serif" align="center"><font color="#666666">Top academic questions asked this month.</font><br>
+<span style="color:#999">Can't see images? <a href="$formlink(Chegg News December 2012 nonopeners)$" style="color:#003399; text-decoration: none;" target="_blank">Click here &raquo;</a></span><br><br></td></tr></table>
+		
+				<!-- Regular Topper -->
+
+    <table cellpadding="0" border="0" cellspacing="0" width="600" style="line-height:150% !important" class="contentborder">
+    <tr><td align="left" colspan="2">
+    <a  href="http://www.chegg.com/?cid=PRM_ENG_EMAIL&campaign=Textbooksolutions&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$" target="_blank" style="position: relative;"><img src="images/chegg_logo.jpg" width="104" height="36" style="background:#ededed"  alt="Chegg" title="Chegg" /></a>
+    </td></tr>
+    <tr>
+    <td align="left" class="topper-links" valign="middle" style="padding:5px 0;">
+	<a style="color:#666; font-size:11px;text-decoration:none;" href="http://www.chegg.com/?cid=PRM_ENG_EMAIL&campaign=textbooks&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$" target="_blank">Textbooks</a>&nbsp;&nbsp;
+    <a style="color:#666; font-size:11px;text-decoration:none;" href="http://www.chegg.com/freetrial7?cid=PRM_ENG_EMAIL&campaign=studytools&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$" target="_blank" >Study Tools</a>&nbsp;&nbsp;
+    <a style="color:#666; font-size:11px;text-decoration:none;" href="http://www.chegg.com/?cid=PRM_ENG_EMAIL&campaign=Textbooksolutions&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$" target="_blank">Course Reviews</a>&nbsp;&nbsp;
+
+	
+	</td>
+    <td align="right"><a style="color:#666; font-size:11px;text-decoration:none;" href="http://www.chegg.com/my/account?cid=PRM_BK_EMAIL&campaign=Nav_Login&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$"><strong>My Account</strong></a></td>
+    </tr>
+    </table>
+				
+		
+		
+		
+		
+		<!-- Content Wrapper -->
+<table cellpadding="0" border="0" cellspacing="0" class="contenttable" width="100%" style="background:#ffffff" align="center" >
+
+
+<tr><td><a href="#" ><img src="images/qa_header.jpg" style="display: block;" alt="Q and A Solutions you can count on" id="welcomeheader" /></a></td></tr>
+<!--inner content-->
+	<tr><td width="555" style="text-align: center; padding-top: 15px;" align="center" class="innertable" >
+		<table cellpadding="0" border="0" cellspacing="0" width="539" style="margin-left: auto; margin-right: auto; text-align:left;" class="innertable">
+			<tr><td style="padding-top: 0px;">
+				
+						<table cellpadding="0" border="0" cellspacing="0">
+							<tr><td style="font-size: 22px; font-family: helvetica, arial; font-weight: bold; color:#666666;">Questions asked by students this 		month...</td></tr>
+					
+						<!--question section here-->
+						<tr>
+							<td style="padding-top: 20px;">
+								<table cellpadding="0" border="0" cellspacing="0">
+									<tr><td style="font-size: 16px; font-family: helvetica, arial; font-weight: bold; color:#f07d00;">Q. Business</td></tr>
+									<tr><td style="font-size: 16px; font-family: helvetica, arial;  color:#666666; padding-left: 22px; padding-top: 5px;">Explain the impact on the WACC with excessive levels of debt...</td></tr>
+									<tr><td  style="font-size: 12px; font-family: helvetica, arial;  color:#666666; padding-left: 22px; padding-top: 5px;"><a href="#" style="color:#003399;">See what the experts say &raquo;</a></td></tr>
+								</table>
+							</td>
+						</tr>
+						<!--end question section here-->
+						<tr><td style="padding-top: 15px; padding-bottom: 15px;" ><img src="images/green_divider.jpg" style="display: block;"   class="divide" /></td></tr>
+						<!--question section here-->
+						<tr>
+							<td>
+								<table cellpadding="0" border="0" cellspacing="0">
+									<tr><td style="font-size: 16px; font-family: helvetica, arial; font-weight: bold; color:#f07d00;">Q. Math</td></tr>
+									<tr><td style="font-size: 16px; font-family: helvetica, arial;  color:#666666; padding-left: 22px; padding-top: 5px;">A die with 8 sides is rolled. What is the probablity of rolling a number less than 7?</td></tr>
+									<tr><td  style="font-size: 12px; font-family: helvetica, arial;  color:#666666; padding-left: 22px; padding-top: 5px;"><a href="#" style="color:#003399;">See what the experts say &raquo;</a></td></tr>
+								</table>
+							</td>
+						</tr>
+						<!--end question section here-->
+						<tr><td style="padding-top: 15px; padding-bottom: 15px;" ><img src="images/green_divider.jpg" style="display: block;"   class="divide"/></td></tr>
+					<!--question section here-->
+						<tr>
+							<td>
+								<table cellpadding="0" border="0" cellspacing="0">
+									<tr><td style="font-size: 16px; font-family: helvetica, arial; font-weight: bold; color:#f07d00;">Q. History</td></tr>
+									<tr><td style="font-size: 16px; font-family: helvetica, arial;  color:#666666; padding-left: 22px; padding-top: 5px;">Who are the constituencies of higher education? Why do you think so?</td></tr>
+									<tr><td  style="font-size: 12px; font-family: helvetica, arial;  color:#666666; padding-left: 22px; padding-top: 5px;"><a href="#" style="color:#003399;">See what the experts say &raquo;</a></td></tr>
+								</table>
+							</td>
+						</tr>
+						<!--end question section here-->
+						<tr><td style="padding-top: 15px; padding-bottom: 15px;" ><img src="images/green_divider.jpg" style="display: block;" class="divide" /></td></tr>
+							<!--question section here-->
+						<tr>
+							<td>
+								<table cellpadding="0" border="0" cellspacing="0">
+									<tr><td style="font-size: 16px; font-family: helvetica, arial; font-weight: bold; color:#f07d00;">Q. English</td></tr>
+									<tr><td style="font-size: 16px; font-family: helvetica, arial;  color:#666666; padding-left: 22px; padding-top: 5px;">What does Mary Chestnut's diary reveal about her attitude toward the war?</td></tr>
+									<tr><td  style="font-size: 12px; font-family: helvetica, arial;  color:#666666; padding-left: 22px; padding-top: 5px;"><a href="#" style="color:#003399;">See what the experts say &raquo;</a></td></tr>
+								</table>
+							</td>
+						</tr>
+						<!--end question section here-->
+						<tr><td style="padding-top: 15px; padding-bottom: 15px;" ><img src="images/green_divider.jpg" style="display: block;"  class="divide" /></td></tr>
+						<tr><td style="font-size: 22px; font-family: helvetica, arial;  color:#666666; font-weight:bold; text-align: center;">Stop searching and start learning</td></tr>
+					<tr><td style="padding-left: 160px; padding-top: 12px;"  width="218" class="askquestion"><img src="images/ask_question2.jpg" alt="Ask a Question" style="display: block;"/></td></tr>
+						
+						
+						
+						
+					</table>
+					
+					
+					</td></tr>
+					
+					
+		</table>
+	</td></tr>
+<!--end inner content-->
+<tr><td class="hide-on-mobile"><img src="images/bottombar.jpg" style="display:block;"  class="hide-on-mobile"/></td></tr>
+</table>
+<!-- End of Content Wrapper -->
+		
+		
+
+
+
+		
+
+		
+		<!-- Bottom Tag -->
+<!-- Footer Section -->
+
+
+<table cellpadding="0" cellspacing="0" border="0" width="600" class="table1">
+							<tr>
+								<td class="tablecell" width="600" style="padding-top: 10px;">
+									<table  border="0" cellspacing="0" cellpadding="0"   align="left"  class="table1" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" id="savetable">
+									 <tr><td valign="top" style="font-weight: bold; font-size: 14px; color:#f07e03; font-family: Helvetica,  Arial, sans-serif; text-align: left; width:514px" id="savetext">Save Time. Save Money. Get Smarter.<br/><span style="font-size: 11px; color:#666666; font-weight: normal;">Need help? <a href="http://www.chegg.com/contactus/" style="color:#0033cc; text-decoration: underline" target="_blank">Customer Service</a> or tweet us <a href="http://twitter.com/CheggHelp" style="color:#0033cc; text-decoration:none;" target="_blank">@chegghelp</a></span></td></tr>
+									</table>
+									<table cellpadding="0" cellspacing="0" border="0" width="66" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" id="socicon" >
+									<tr>
+										<td class="social"><a href="http://www.facebook.com/chegg" target="_blank"><img src="images/fb_1.gif" border="0"  style="display: block;" /></a></td>
+										<td style="padding-left: 6px;" class="social" ><a href="http://www.twitter.com/chegg" target="_blank"><img src="images/twitter_1.gif"  border="0"  style="display: block;"  /></a></td>
+										<td style="padding-left: 6px;" class="social" ><a href="http://blog.chegg.com" target="_blank"><img src="images/chegg_blog.gif" border="0"  style="display: block;"  /></a></td>
+									</tr>
+									</table>
+
+				
+				
+				<!-- Unsubscribe Scripts -->
+
+			
+<table class="contentborder" cellpadding="5" cellspacing="0" style="background:#ededed; width:600px;-webkit-text-size-adjust: none;">
+<tr><td style="padding-top: 15px;"><img src="images/horiz.jpg" style="display:block;" width="590" height="6" id="horizbar" /></td></tr>
+<tr><td align="center"><span style="font-size: 11px; font-family: arial; color: #666666; line-height: 12px;" xml="lang">$cond(not(empty(lookup(ENC_USER_ID))),<br/> document(!Campaign_Templates, ENC_USERID_NOT_EMPTY),<br/>  nothing())$ $cond(empty(lookup(ENC_USER_ID)),<br/>  document(!Campaign_Templates,<br/>  ENC_USERID_EMPTY), nothing())$<br/> </span></td></tr></table>
+		
+							</td>
+				</tr>
+			</table>
+			<!-- end Content Border -->
+				</td>
+	</tr>
+</table>
+			
+		</td>
+	</tr>
+</table>
+<!-- end Main Wrapper -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+Title AnodyneCombined-Italic OTF
+Version 
+Description Installs the OTF format of the font AnodyneCombined-Italic.
+DefaultLocation /Library/Fonts
+DeleteWarning 
+
+### Package Flags
+
+NeedsAuthorization YES
+Required NO
+Relocatable NO
+RequiresReboot NO
+UseUserMask NO
+OverwritePermissions NO
+InstallFat NO
+RootVolumeOnly YES
+OnlyUpdateInstalledLanguages NO

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IFPkgFlagBackgroundAlignment</key>
+	<string>center</string>
+	<key>IFPkgFlagBackgroundScaling</key>
+	<string>proportional</string>
+	<key>IFPkgFlagComponentDirectory</key>
+	<string>./Contents/Packages</string>
+	<key>IFPkgFlagPackageList</key>
+	<array>
+		<dict>
+			<key>IFPkgFlagPackageLocation</key>
+			<string>AnodyneCombined-OTF.pkg</string>
+			<key>IFPkgFlagPackageSelection</key>
+			<string>selected</string>
+		</dict>
+
+		<dict>
+			<key>IFPkgFlagPackageLocation</key>
+			<string>AnodyneShadow-OTF.pkg</string>
+			<key>IFPkgFlagPackageSelection</key>
+			<string>selected</string>
+		</dict>
+
+		<dict>
+			<key>IFPkgFlagPackageLocation</key>
+			<string>AnodyneShadow-Italic-OTF.pkg</string>
+			<key>IFPkgFlagPackageSelection</key>
+			<string>selected</string>
+		</dict>
+
+		<dict>
+			<key>IFPkgFlagPackageLocation</key>
+			<string>Anodyne-Italic-OTF.pkg</string>
+			<key>IFPkgFlagPackageSelection</key>
+			<string>selected</string>
+		</dict>
+
+		<dict>
+			<key>IFPkgFlagPackageLocation</key>
+			<string>Anodyne-OTF.pkg</string>
+			<key>IFPkgFlagPackageSelection</key>
+			<string>selected</string>
+		</dict>
+
+		<dict>
+			<key>IFPkgFlagPackageLocation</key>
+			<string>AnodyneCombined-Italic-OTF.pkg</string>
+			<key>IFPkgFlagPackageSelection</key>
+			<string>selected</string>
+		</dict>
+
+
+	</array>
+	<key>IFPkgFormatVersion</key>
+	<real>0.10000000149011612</real>
+</dict>
+</plist>

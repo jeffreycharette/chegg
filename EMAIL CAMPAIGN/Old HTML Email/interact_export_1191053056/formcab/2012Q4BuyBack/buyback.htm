@@ -1,0 +1,337 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chegg</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body style="font-size:12px;">
+<style type="text/css">
+	@media only screen and (max-device-width: 480px) { 
+    /* mobile-specific CSS styles go here */
+        table[class=contentborder] { 
+            width: 310px !important;
+        }
+		
+		.topper a {
+			font-size:10px !important;
+		}
+		
+		a[class=hide-on-mobile], 
+		img[class=hide-on-mobile],
+		table[class=hide-on-mobile]{
+			display:none !important;
+		}
+		
+		a[class=hide-on-desktop], img[class=hide-on-desktop]{
+			display:block !important;
+			position:relative;
+			top:auto;
+			left:auto;
+			width:auto;
+			height:auto;
+			overflow:visible;
+		}
+		
+		img[class=mobile-flat-shrink]{
+			width:300px;
+			height:44px;
+		}
+		
+		table[class=general-image-copy]{
+			width:260px !important;
+		}
+		
+		table[class=general-image-copy] td{
+			padding:10px 0 0  !important;
+		}
+		
+		table[class=book-copy]{
+			width: 175px;
+		}
+		
+		img[class=grayline]{
+			width:260px !important;
+		}
+		
+		table[class=tri-column]{
+			width:300px !important;
+		}
+		
+		table[class=tri-column] td{
+			padding:20px 60px !important;
+		}
+		
+		.center-on-mobile{
+			text-align:center !important;
+		}
+    }
+
+    /* regular CSS styles go here */
+	body, html{
+		padding:0;
+		margin:0;
+		color:#333 !important;
+		font-size:12px;
+		width:100% !important; 
+		-webkit-text-size-adjust:100%; 
+		-ms-text-size-adjust:100%; 
+		margin:0; 
+		padding:0;
+vertical-align:top;
+	}
+
+.imagetocache{display:none !important;}
+	
+	.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+	.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} 
+	
+	img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+	
+	a img {border:none;}
+	.image_fix {display:block;}
+	p {margin: 1em 0;}
+	
+	div.im{
+		color:#333 !important;
+	}
+		
+	table{
+		margin:0;
+		padding:0;
+		color:#333 !important;
+		border:none;
+		border-collapse:collapse; 
+		mso-table-lspace:0pt; 
+		mso-table-rspace:0pt;
+	}
+	
+    table.contentborder {
+        width: 610px;
+		background:#ededed;
+    }
+	
+	table.contenttable{
+		background:#fff;
+		width:100%
+	}
+	
+	table.topper, .topper tr{
+		background:#ededed !important;
+	}
+	
+	td{
+		font-family:Arial, Helvetica, sans-serif;
+		line-height:100% !important;
+		color:#333 !important;
+	}
+	
+	.cta{
+		background:#a4bf1c;
+	}
+	
+	a{
+		color:#333;
+		text-decoration:none;
+	}
+	
+	a:hover{
+		text-decoration:underline;
+	}
+	
+	.topper a {
+			font-size:11px;
+			color:#666;
+	}
+		
+	.hide-on-desktop{
+			display:none !important;
+			position:absolute;
+			top:-10000px;
+			left:-10000px;
+			width:0;
+			height:0;
+			overflow:hidden;
+	}
+	
+	.no-line-height{
+		line-height:0;
+	}
+	
+	img{
+		border:none;
+	}
+	
+	h2{
+		font-size:16px;
+		font-weight:bold;
+		margin:0 0 10px 0;
+		line-height:130% !important;
+color:#000000;
+	}
+	
+	h3{
+		font-size:18px;
+		font-weight:bold;
+		margin:10px 0 10px 0;
+		line-height:130% !important;
+color:#000000;
+padding:0px;
+	}
+	
+	.disclaimer{
+		margin-top:10px;
+		color:#aaa;
+		font-size:9px;
+		line-height:100% !important;
+	}
+	
+	.general-image-copy td{
+			padding:0 20px;
+		}
+	
+	.book-image{
+		width:85px;
+		height:100px;
+		padding-bottom:15px;
+	}
+	
+	.book-image td{
+	}
+	
+	.book-copy{
+		padding: 0 0 0 10px;
+	}
+	
+	.grayline{
+		width:560px;
+		height:1px;
+		margin:0 0 15px 0;
+	}
+	
+	 
+
+	
+</style>
+
+<!-- Main Wrapper -->
+<table cellpadding="0" cellspacing="0" border="0"><tr><td align="center"  valign="top">
+
+<!-- Content Border -->
+<table cellpadding="5" border="0" cellspacing="0" class="contentborder" style="background:#ededed; width:610px;">
+<tr><td style="padding:5px">
+
+<!-- Snippet -->
+<table style="background:#ededed;" class="hide-on-mobile" width="600px"><tr><td width="600" style="width:600px; color:#666; font-size:12px; font-family:Arial, Helvetica, sans-serif" align="center"><font color="#666666">Hi $cond(empty(firstname(lookup(ship_fname))), there, leadingcapital(firstname(lookup(ship_fname))))$, Save hundreds by checking out with Chegg.</font><br>
+<span style="color:#999">Can't see images? <a href="$formlink(campaignname(),EMAIL_ADDRESS_)$" style="color:#003399 !important">Click here >></a></span><br><br></td></tr></table>
+
+<!-- Content Wrapper -->
+<table cellpadding="0" border="0" cellspacing="0" class="contenttable" width="100%" style="background:#fff">
+
+<!-- Topper - Social -->
+<tr><td class="topper" align="left" style="background:#ededed">
+    <table cellpadding="0" cellspacing="0"  border="0" width="300" style="width:300px;" align="left"><tr><td align="left">
+    	<a href="http://www.chegg.com/?cid=PRM_BK_EMAIL&campaign=Nav_Logo&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$"><img src="buyback.images/logo_1.png" width="115" height="32" style="background:#ededed"  alt="Chegg" title="Chegg" />
+    </td></tr></table>
+    
+    <!-- Topper Social -->
+    <table class="hide-on-mobile" border="0" cellpadding="0" height="40" cellspacing="0" width="298" style="width:298px; height:40px">
+    <tr>
+      <td align="right" style="color:#FFF; line-height:12px; padding:10px 0">
+    	<a href="http://www.facebook.com/chegg"><img src="buyback.images/icon_fb.png" width="18" height="18" style="background:#3c5a98" alt="Facebook" title="Facebook" border="0" /></a>&nbsp;
+        <a href="http://twitter.com/chegg"><img border="0" src="buyback.images/icon_twitter.png" width="18" height="18" style="background:#29a9e0" alt="Twitter" title="Twitter" /></a>&nbsp;
+        <a href="http://blog.chegg.com/"><img border="0" src="buyback.images/icon_web.png" width="18" height="18" style="background:#f07d00" alt="Chegg Blog" title="Chegg Blog"/></a></td></tr>
+    </table>
+    
+    
+    <table cellpadding="0" border="0" cellspacing="0" width="100%">
+    <tr>
+      <td align="left" class="topper-links" style="line-height:150% !important; padding:5px 0">
+    <a style="color:#666; font-size:11px;text-decoration:none;" href="http://www.chegg.com/?cid=PRM_BYB_EMAIL&campaign=Nav_Textbooks&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$">Textbooks</a>&nbsp;&nbsp;
+    <a style="color:#666; font-size:11px;text-decoration:none;" href="http://www.chegg.com/?cid=PRM_BYB_EMAIL&campaign=Nav_Expert_Help&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$">Homework Help</a>&nbsp;&nbsp;
+    <a style="color:#666; font-size:11px;text-decoration:none;" href="http://www.chegg.com/?cid=PRM_BYB_EMAIL&campaign=Nav_Course_Reviews&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$">Course Reviews</a></td>
+    <td align="right"><a style="color:#666; font-size:11px;text-decoration:none;" href="http://www.chegg.com/my/account?cid=PRM_BYB_EMAIL&campaign=Nav_Login&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$"><strong>My Account</strong></a></td>
+    </tr>
+    </table>
+</td></tr>
+
+<!-- Main Content Body -->
+<tr><td style="padding:0">
+
+
+<!-- Stackable 300x250 -->
+<table cellpadding="0" border="0" cellspacing="0" width="100%" style="width:100%; "><tr><td>
+<table cellpadding="0" border="0" cellspacing="0" width="298" height="250" style="width:298px; height:250px !important; background:#fff" align="left">
+<tr><td style="width:10px; height:250px !important;" width="10px" height="250">&nbsp;</td>
+<td align="left" valign="top" style="line-height:120% !important; font-size:18px; text-align:left; height:230px !important; width:245px;">
+<h3 style="font-weight:normal !important; margin-top:10px !important"><font color="#000000"><span style="font-size:20px;">Hi $cond(empty(firstname(lookup(ship_fname))), there, leadingcapital(firstname(lookup(ship_fname))))$,<br><br><font color="#FF8A00"><span style="font-size:24px;line-height:26px !important;">Get top dollar for <br>used textbooks.</span></font><br> <br>
+No lines. Free shipping.<br></span></font></h3>
+<a href="http://www.chegg.com/sell-textbooks/?cid=PRM_BYB_EMAIL&campaign=CTA&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$"><img class="cta" src="buyback.images/btn_getquote.jpg" width="202" height="36" alt="Get a quote" title="Get a quote" border="0" /></a><br><br>
+</td></tr></table>
+<table cellpadding="0" border="0" cellspacing="0" width="300" height="250" style="width:300px; height:250px !important" class="hide-on-mobile"><tr><td>
+
+<a href="http://www.chegg.com/sell-textbooks/?cid=PRM_BYB_EMAIL&campaign=CTA&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$">
+<img src="buyback.images/img_money.jpg" width="300" height="250" style="width:300px; height:250px"  alt="Get a quote" title="Get a quote"/>
+</td></tr></table>
+</td></tr></table>
+
+
+</td></tr>
+<!-- End of Main Content Body -->
+
+</table>
+<!-- End of Content Wrapper -->
+
+<!-- 728x80 Ad -->
+<a href="http://www.chegg.com/?cid=PRM_BYB_EMAIL&campaign=textbooks&RSF=$REC_SRC_FLAG$&CPID=$campaignid()$&DATE=$todayformat(0, yyyy-MM-dd)$" class="">
+<table width="100%" class="hide-on-mobile" cellpadding="0" border="0" cellspacing="0" style="border-top:5px solid #ededed; background:#ededed;">
+<tr><td style="width:728px;height:80px;background:#ededed;"><img border="0" style="background:#ededed;" src="buyback_sell.images/housead-600x74-textb.png" width="600" height="74" alt="Search for textbooks" title="Search for textbooks"/></td></tr></table></a>
+
+<!-- Bottom Tag -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ededed; height:60px; border-bottom:1px solid #dcdcdc"><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr><td class="center-on-mobile" align="center" style="line-height:120% !important"><font size="2px">&nbsp;<br></font>
+<strong style="color:#FF8A00; font-size:13px">Save time. Save money. Get smarter.</strong><br>
+<div style="font-size:10px">Need help? <a style="color:#03F; text-decoration:underline" href="http://www.chegg.com/contactus/">Customer Service</a> or tweet us <a style="color:#03F; text-decoration:underline" href="https://twitter.com/chegghelp">@chegghelp</a> </div>
+</td></tr></table>
+<tr><td>&nbsp;</td></tr>
+</td></tr></table>
+
+
+
+<!-- Unsubscribe Scripts -->
+<table class="contentborder" cellpadding="5" cellspacing="0" style="background:#ededed; width:600px"><tr><td>&nbsp;</td></tr><tr><td align="center"><span style="font-size: 11px; font-family: arial; color: #666666; line-height: 12px;" xml="lang">$cond(not(empty(lookup(ENC_USER_ID))), document(!Campaign_Templates, ENC_USERID_NOT_EMPTY), nothing())$ $cond(empty(lookup(ENC_USER_ID)), document(!Campaign_Templates, ENC_USERID_EMPTY), nothing())$</span></td></tr></table>
+</td></tr></table>
+<!-- End of Content Border -->
+
+
+</td></tr></table>
+<!-- End of Main Wrapper -->
+
+
+<!-- Dotomi AdTopia Registration Code  -->
+
+<img src="http://login.dotomi.com/ucm/UCMController?dtm_com=2&dtm_cid=2407&dtm_cmagic=97416a&dtm_fid=103&dtm_format=6&cli_promo_id=99&dtm_email_hash=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$&dtm_user_id=$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$&dtmc_drop_id=$todayformat(0,yyyyMMdd)$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub1.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub2.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub3.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub4.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub5.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub6.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub7.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub8.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub9.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+<img src="http://ads.dotomi.com/cookieredir/2407/pub10.php?a=$securedigestashex(lookup(EMAIL_ADDRESS_), MD5)$$cond(empty(lookup(CUSTOMER_ID_)),1,lookup(CUSTOMER_ID_))$" width="1" height="1" border="0">
+
+
+<!-- for catching --->
+<table class="imagetocache"><tr><td>
+<img  style="display:none !important;" src="buyback.images/cta_300x195.png" width="0" height="0" />
+<img  style="display:none !important;" src="buyback.images/cta_300x195_2.png" width="0" height="0" />
+<img  style="display:none !important;"src="TBS_multiple.images/cta_repeat_300.png" width="0" height="0" />
+<img  style="display:none !important;" src="buyback.images/support_300x50.png" width="0" height="0" />
+</td></tr></table>
+
+</body>
+</html>
